@@ -182,7 +182,9 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 }
 /*************FDANSK**************/
-.column {
+
+
+#menu {
   max-width: 1300px;
   background-color: #FFF;
   margin: 40px auto 0 auto;
@@ -192,38 +194,20 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
   justify-content: center;
 }
 
-.column-midt {
+.column-mid {
   flex-grow: 1;
   order: 2;
 }
 
-.column-venstre {
+.column-left {
   flex-grow: 1;
   order: 1;
 }
 
-.column-højre {
+.column-right {
   flex-grow: 1;
   order: 3;
 }
-
-.flexcontainer {
-   display: flex;
-   -webkit-flex-direction: row /* works with row or column */
-   flex-direction: row;
-   -webkit-align-items: center;
-
-   -webkit-justify-content: center;
-
-}
-
-
-
-
-
-
-
-
 
 
 
