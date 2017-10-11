@@ -184,12 +184,12 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 /*************FDANSK**************/
 .column {
   max-width: 1300px;
-  background-color: #FFF;
+  background-color: #fffacd;
   margin: 40px auto 0 auto;
-  line-height: normal;
   padding: 20px 50px;
   display: flex;
   justify-content: center;
+color: #217166
 }
 
 .column-midt {
@@ -206,27 +206,6 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
   flex-grow: 1;
   order: 3;
 }
-
-.flexcontainer {
-   display: flex;
-   -webkit-flex-direction: row /* works with row or column */
-   flex-direction: row;
-   -webkit-align-items: center;
-
-   -webkit-justify-content: center;
-
-}
-
-
-
-
-
-
-
-
-
-
-
 /*************OM***********/
 
 #om {
