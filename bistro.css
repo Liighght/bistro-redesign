@@ -36,9 +36,11 @@ body {
     src: url('fonts/Poppins/Poppins-Regular.ttf');
 }
 
-h2{font-family: 'overskrift';
-padding: 20px;
-font-size: 22pt;}
+h2 {
+    font-family: 'overskrift';
+    padding: 20px;
+    font-size: 22pt;
+}
 
 
 /**************NAV**************/
@@ -181,37 +183,42 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     }
 
 }
-/*************FDANSK**************/
 
+/*************MENUKORT**************/
+
+#menu h2{
+    padding: 0px;
+}
+
+#menu i{color: black;}
 
 #menu {
-  max-width: 1300px;
-  background-color: #fffacd;
-  margin: 40px auto 0 auto;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-color: #217166;
+    background-color: #fffacd;
+    margin: 40px auto 0 auto;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    color: #217166;
     background-color: #FFFACD;
 }
 
-.column-mid {
-  flex-grow: 1;
-  order: 2;
-     margin: 20px;
-
-}
 
 .column-left {
-  flex-grow: 1;
-  order: 1;
-  margin: 20px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 20px;
+}
+
+.column-mid {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 20px;
 }
 
 .column-right {
-  flex-grow: 1;
-  order: 3;
-  margin: 20px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 20px;
 }
 
 
@@ -220,9 +227,9 @@ color: #217166;
 #om {
     display: flex;
     flex-direction: column;
-   }
+}
 
-.omtekst{
+.omtekst {
     flex-grow: 1;
     flex-basis: 300px;
     text-align: center;
@@ -231,42 +238,45 @@ color: #217166;
 }
 
 
-.ombillede{
+.ombillede {
     padding: 50px;
     flex-grow: 1;
     flex-basis: 300px;
- 
+
 }
 
 /*********** KONTAKT ********/
 
-#kontakt{
+#kontakt {
     display: flex;
     flex-direction: column;
     border-radius: 100px;
-    background:#25463A ;
+    background: #25463A;
     margin: 100px;
-    color:white;
+    color: white;
 }
 
-#kontakt .top{
+#kontakt .top {
     padding-top: 40px;
     flex-grow: 1;
     flex-basis: 250px;
     text-align: center;
-    
-    
+
+
 }
 
-#kontakt .bottom{
+#kontakt .bottom {
     flex-grow: 1;
     flex-basis: 250px;
     text-align: center;
-    
+
 }
 
-.map{
+.map {
+    flex-grow: 1;
+    flex-basis: 200px;
     padding: 20px;
+    align-self: center;
 }
 
 /*********** FOOTER ********/
@@ -284,13 +294,13 @@ footer {
 
 .fa {
 
-  padding: 20px;
-  font-size: 30px;
-  width: 55px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
 }
 
 .fa:hover {
@@ -298,11 +308,11 @@ footer {
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-instagram {
-  background: hotpink;
-  color: white;
+    background: hotpink;
+    color: white;
 }
