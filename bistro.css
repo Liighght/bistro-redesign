@@ -176,6 +176,50 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     }
 
 }
+/*************FDANSK**************/
+.column {
+  max-width: 1300px;
+  background-color: #FFF;
+  margin: 40px auto 0 auto;
+  line-height: normal;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.column-midt {
+  flex-grow: 1;
+  order: 2;
+}
+
+.column-venstre {
+  flex-grow: 1;
+  order: 1;
+}
+
+.column-højre {
+  flex-grow: 1;
+  order: 3;
+}
+
+.flexcontainer {
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+
+   -webkit-justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     padding: 35px;
