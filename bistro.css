@@ -36,6 +36,11 @@ body {
     src: url('fonts/Poppins/Poppins-Regular.ttf');
 }
 
+h2{font-family: 'overskrift';
+padding: 20px;
+font-size: 22pt;}
+
+
 /**************NAV**************/
 
 nav {
@@ -177,6 +182,62 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 }
 
+
+/*************OM***********/
+
+#om {
+    display: flex;
+    flex-direction: column;
+   }
+
+.omtekst{
+    flex-grow: 1;
+    flex-basis: 300px;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.ombillede{
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 300px;
+ 
+}
+
+/*********** KONTAKT ********/
+
+#kontakt{
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    background:#25463A ;
+    margin: 100px;
+    color:white;
+}
+
+#kontakt .top{
+    padding-top: 40px;
+    flex-grow: 1;
+    flex-basis: 250px;
+    text-align: center;
+    
+    
+}
+
+#kontakt .bottom{
+    flex-grow: 1;
+    flex-basis: 250px;
+    text-align: center;
+    
+}
+
+.map{
+    padding: 20px;
+}
+
+/*********** FOOTER ********/
+
 footer {
     padding: 35px;
     text-align: center;
@@ -184,4 +245,31 @@ footer {
     background-color: #25463A;
     color: white;
     font-family: overskrift;
+}
+
+/******** SOCIAL MEDIA *********/
+
+.fa {
+
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: hotpink;
+  color: white;
 }
