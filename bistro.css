@@ -192,11 +192,13 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
   padding: 20px 50px;
   display: flex;
   justify-content: center;
+    background-color: #FFFACD;
 }
 
 .column-mid {
   flex-grow: 1;
   order: 2;
+
 }
 
 .column-left {
