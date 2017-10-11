@@ -1,0 +1,178 @@
+/********GENERAL SETTINGS******/
+
+body {
+    background-color: #FCE390;
+    font-family: 'tekst';
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+* img {
+    width: 100%;
+}
+
+
+/**************FONTS***********/
+
+@font-face {
+    font-family: 'overskrift';
+    src: url('fonts/Raleway/Raleway-Light.ttf');
+}
+
+
+@font-face {
+    font-family: 'links';
+    src: url('fonts/Raleway/Raleway-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: 'tekst';
+    src: url('fonts/Poppins/Poppins-Regular.ttf');
+}
+
+/**************NAV**************/
+
+nav {
+    font-family: 'links';
+
+    padding: 50px;
+    text-align: center;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #25463A;
+    border-radius: 5px;
+}
+
+nav > ul > li {
+    float: left;
+    width: 150px;
+    height: 65px;
+    line-height: 65px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+nav > ul > li:hover {
+    background: #43816B;
+    border-radius: 5px;
+}
+
+ul.drop-menu {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    padding: 0;
+}
+
+ul.drop-menu li {
+    background: #2C5548;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+ul.drop-menu li:hover {
+    background: #508D77;
+}
+
+ul.drop-menu li:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+
+ul.drop-menu li {
+    display: none;
+}
+
+li:hover > ul.drop-menu li {
+    display: block;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+}
+
+/****************SPLASH ***************/
+
+#splash {
+    width: 100vw;
+    height: 186.6vw;
+    background-image: url('img/bistro_mobile_portrait.jpg');
+    background-size: cover;
+}
+
+
+
+
+/*************MEDIA QUERIES**************/
+
+@media screen and (min-width: 376px) and (max-width: 627px) and (orientation:landscape) {
+
+    #icon {}
+
+    #splash {
+        height: 81.49vw;
+        background-image: url('img/bistro_mobile_landscape.jpg');
+    }
+
+}
+
+@media screen and (min-width: 375px) and (orientation:portrait) {
+    #icon {}
+
+    #splash {
+        height: 133.5vw;
+        background-image: url('img/bistro_tablet_portrait.jpg');
+    }
+
+}
+
+@media screen and (min-width: 628px) and (max-width: 1024px)and (orientation:landscape) {
+
+    #icon {}
+
+    #splash {
+        height: 66.7vw;
+        background-image: url('img/bistro_tablet_landscape.jpg');
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (orientation:landscape) {
+
+    #icon {}
+
+    #splash {
+        height: 66.65vw;
+        background-image: url('img/bistro.jpg');
+    }
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+
+    #icon {}
+
+    #splash {
+        height: 56.25vw;
+        background-image: url('img/bistro_retina.jpg');
+    }
+
+}
