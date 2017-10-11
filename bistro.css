@@ -191,11 +191,8 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
   padding: 20px 50px;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-color: #217166
-=======
+color: #217166;
     background-color: #FFFACD;
->>>>>>> origin/master
 }
 
 .column-mid {
