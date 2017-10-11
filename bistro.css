@@ -182,30 +182,43 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 }
 /*************FDANSK**************/
-.column {
+
+
+#menu {
   max-width: 1300px;
   background-color: #fffacd;
   margin: 40px auto 0 auto;
   padding: 20px 50px;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
 color: #217166
+=======
+    background-color: #FFFACD;
+>>>>>>> origin/master
 }
 
-.column-midt {
+.column-mid {
   flex-grow: 1;
   order: 2;
+
 }
 
-.column-venstre {
+.column-left {
   flex-grow: 1;
   order: 1;
 }
 
-.column-højre {
+.column-right {
   flex-grow: 1;
   order: 3;
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> origin/master
 /*************OM***********/
 
 #om {
