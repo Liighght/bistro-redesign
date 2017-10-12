@@ -238,13 +238,17 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     flex-grow: 1;
     flex-basis: 300px;
     text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 
 .ombillede {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 500px;
     align-self: center;
+    padding: 10px;
+    margin: 10px;
 
 }
 
