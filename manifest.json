@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "Drag\u00f8r Bistro",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,7 +12,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#2f8a34",
+    "background_color": "#2f8a34",
     "display": "standalone"
 }
