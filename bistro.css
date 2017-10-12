@@ -42,46 +42,6 @@ h2 {
     padding: 20px;
     font-size: 22pt;
 }
-/*****BURGER NAV*******/
-
-.burger-nav{
-    display: block;
-    height: 40px;
-    width: 100%;
-    background: url(burger_1.png) no-repeat 2% center;
-    cursor: pointer;
-}
-header.wrapper{
-    width: 100%;
-    padding: 0;
-}
-
-header nav ul{
-    overflow: hidden;
-    height: 0;
-}
-
-header nav ul.open{
-    height: auto;
-    padding: 5px;
-}
-
-header nav ul li{
-    float: none;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-}
-
-header nav ul li a{
-color: #fff;
-    padding: 10px;
-    border-bottom: 1px solid #404040;
-    display: block;
-    margin: 0;
-
-}
-
 
 /**************NAV**************/
 
