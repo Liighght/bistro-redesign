@@ -5,6 +5,7 @@ body {
     font-family: 'tekst';
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 * {
@@ -198,9 +199,11 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     margin: 40px auto 0 auto;
     padding: 20px 50px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     color: #217166;
     background-color: #FFFACD;
+    border-radius: 20px;
 }
 
 
@@ -227,22 +230,21 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 #om {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .omtekst {
     flex-grow: 1;
     flex-basis: 300px;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px
 }
 
 
 .ombillede {
-    padding: 50px;
     flex-grow: 1;
     flex-basis: 300px;
+    align-self: center;
 
 }
 
